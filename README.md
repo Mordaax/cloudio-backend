@@ -63,7 +63,7 @@ $ docker build -t mordax/django-cloudio -f docker/Dockerfile .
 
 Run the Docker container:
 ```bash
-$ docker run --rm -i -p 8000:8000 mordax/django-cloudio
+$ docker run -d -p 8000:8000 mordax/django-cloudio
 ```
 
 #### Helper script

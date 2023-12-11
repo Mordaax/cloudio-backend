@@ -12,4 +12,4 @@ echo -e "\nDocker build image with name ${IMAGE_NAME}...\n"
 docker build -t ${IMAGE_NAME} -f docker/Dockerfile .
 
 echo -e "\nStart Docker container of the image ${IMAGE_NAME}...\n"
-docker run --rm -i -p ${PORT}:${PORT} ${IMAGE_NAME}
+docker run -d -p ${PORT}:${PORT} ${IMAGE_NAME}
