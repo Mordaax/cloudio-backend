@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-IMAGE_NAME=mordax/django-clouio
+IMAGE_NAME=mordax/django-cloudio
 echo -e "\nSet docker image name as ${IMAGE_NAME}\n"
 PORT=8000
 echo -e "Set docker image PORT to ${PORT}\n"
