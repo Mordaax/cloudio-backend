@@ -33,7 +33,7 @@ Install dependencies:
 $ pip install -r requirements.txt
 ```
 
-Setup key.sh
+Setup key.json (Get Service Acccount key from Google Cloud Console https://console.cloud.google.com/apis/credentials)
 
 ## How to run
 
